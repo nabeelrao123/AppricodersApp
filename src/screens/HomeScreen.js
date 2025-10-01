@@ -22,7 +22,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Welcome{user && user.email ? `, ${user.email}` : ''}!</Text>
-      <Text style={{marginBottom:20}}>This is the Home screen. Close the app completely and reopen — if logged in, you will return here automatically.</Text>
+      <Text style={{marginBottom:20}}> if logged in, you will return here automatically.</Text>
       <Button title="Logout" onPress={onLogout} />
     </View>
   );
